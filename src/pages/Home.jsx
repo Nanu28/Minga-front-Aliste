@@ -4,10 +4,10 @@ import React from 'react'
 
 const home = () => {
   return (
-    <>
+    <main>
      <Carousel/>
      <Welcome/>
-    </>
+    </main>
   )
 }
 

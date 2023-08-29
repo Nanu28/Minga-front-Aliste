@@ -1,5 +1,6 @@
 import Navbar from './Navbar'
 import Home from '../pages/Home'
+import Footer from '../componentes/Footer'
 import React from 'react'
 
 const Layout = (props) => {
@@ -7,7 +8,8 @@ const Layout = (props) => {
   return (
     <>
     <Navbar/>
-    <Home/>
+      {props.children}
+    <Footer/>
     </>
   )
 }
