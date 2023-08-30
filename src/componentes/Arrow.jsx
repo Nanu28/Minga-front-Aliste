@@ -1,14 +1,14 @@
 import React from 'react'
 
-const ArrowLeft = () => {
+const ArrowLeft = (props) => {
   return (
-    <img className='w-10' src="../public/images/left-arrow.svg" alt="left_arrow" />
+    <img onClick={props.left} className='w-10 cursor-pointer' src="../public/images/left-arrow.svg" alt="left_arrow" />
   )
 }
 
-const ArrowRight = () => {
+const ArrowRight = (props) => {
   return (
-    <img className='w-10' src="../public/images/right-arrow.svg" alt="right_arrow" />
+    <img onClick={props.right} className='w-10 cursor-pointer' src="../public/images/right-arrow.svg" alt="right_arrow" />
   )
 }
 
