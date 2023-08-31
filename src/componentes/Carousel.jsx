@@ -29,7 +29,7 @@ getData()
       <img className='h-60 -mt-8' src={categories[counter]?.character_photo} alt="character_carousel" />
       <img className='-mt-8 h-60 pb-4' src= {categories[counter]?.cover_photo} alt="poster_carousel" />
       <div className='w-80 m-8 text-white'>
-        <h3 className='text-left flex'>{categories[counter]?.name}</h3>
+        <h3 className='text-left flex font-semibold'>{categories[counter]?.name}</h3>
         <p className='text-left text-sm'>{categories[counter]?.description}</p>
       </div>
       <ArrowRight right = {next} />
